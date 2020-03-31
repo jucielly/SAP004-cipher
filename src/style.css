@@ -118,3 +118,8 @@ html {
   color: #C48370;
 
 }
+
+.know-more-link:hover {
+  color: #C48370;
+  cursor: pointer;
+}
