@@ -11,7 +11,6 @@ html {
   font-size: 50px;
   font-weight: lighter;
   border-bottom: 1px solid #ECC8AE;
-  
 }
 
 .second-title {
@@ -40,19 +39,20 @@ html {
 }
 
 .message-title {
-    font-family: 'Cinzel', serif;
+  font-family: 'Cinzel', serif;
 }
 
-.btn{
-    color: #C48370;
-    font-weight: bold;
-    background-color: #ECC8AE;;
-    border: none;
-    border-radius: 5px;
-    font-family: 'Cinzel', serif;
-    padding: 10px;
-    margin: 10px;
-    cursor: pointer;
+.btn {
+  color: #C48370;
+  font-weight: bold;
+  background-color: #ECC8AE;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Cinzel', serif;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+
 }
 
 .btn:hover {
@@ -62,25 +62,59 @@ html {
 }
 
 #message-input {
-    text-align: center;
-    border: 1px solid #ECC8AE;
-    border-radius: 3px;
-    height: 100px;
-    width: 250px;
+  text-align: center;
+  border: 1px solid #ECC8AE;
+  border-radius: 3px;
+  height: 100px;
+  width: 250px;
 }
 
 #result-input {
-    text-align: center;
-    border: 1px solid #ECC8AE;
-    border-radius: 3px;
-    height: 100px;
-    width: 250px;
+  text-align: center;
+  border: 1px solid #ECC8AE;
+  border-radius: 3px;
+  height: 100px;
+  width: 250px;
 }
 
 #offset-input {
-    text-align: center;
-    border: 1px solid #ECC8AE;
-    height: 20px;
-    width: 50px;
-    border-radius: 3px;
+  text-align: center;
+  border: 1px solid #ECC8AE;
+  height: 20px;
+  width: 50px;
+  border-radius: 3px;
+}
+
+.div-second-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.instruction-div {
+  text-align: center;
+  margin-top: 30px;
+  border: 1px solid #ECC8AE;
+  width: 300px;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.instruction-div li {
+  padding: 5px;
+}
+
+.about-cipher-div {
+  text-align: center;
+  border: 1px solid #ECC8AE;
+  width: 400px;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.second-section-titles {
+  font-family: 'Cinzel', serif;
+  color: #C48370;
+
 }
