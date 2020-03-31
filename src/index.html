@@ -6,27 +6,36 @@
   <title>Cifra de César</title>
   <!--font awesome icons-->
   <script src="https://kit.fontawesome.com/11e9e029cd.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@300&family=Romanesco&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <header id="root">
-    <h1>Caesar's Crush <i class="far fa-heart"></i></h1>
-    <h2>Mande uma mensagem secreta para o seu crush!!</h2>
+    <h1 class="main-title">Caesar's Crush <i class="far fa-heart"></i></h1>
+    <h2 class="second-title">Mande uma mensagem secreta para o seu crush!!</h2>
   </header>
 
   <section class="main-section">
-    <form>
-      <label for="message-input">Mensagem</label>
-      <textarea id="message-input" placeholder="Digite sua mensagem..." name="message-box" required></textarea>
-      <label for="offset-input">Posição</label>
-      <input type="number" id="offset-input" placeholder="0" name="offset" />
-      <label  for="result-input">Resultado</label>
-      <textarea id="result-input" placeholder="Resultado..." name="result-input"></textarea>
-      <br>
-      <button type="submit" id="code-btn">Codificar</button>
-      <button type="submit" id="decode-btn">Decodificar</button>
-    </form>
+    <div class="form-div">
+      <form>
+        <div class="form-div-message">
+          <label for="message-input" class="message-title">Mensagem</label>
+          <textarea id="message-input" placeholder="Digite sua mensagem..." name="message-box" required></textarea>
+        </div>
+        <div class="form-div-offset">
+          <label for="offset-input" class="message-title" >Posição</label>
+          <input type="number" id="offset-input" placeholder="0" name="offset" />
+        </div>
+        <div class="form-div-message">
+          <label for="result-input" class="message-title">Resultado</label>
+          <textarea id="result-input" placeholder="Resultado..." name="result-input"></textarea>
+        </div>
+        <button type="submit" id="code-btn" class="btn">Codificar</button>
+        <button type="submit" id="decode-btn" class="btn">Decodificar</button>
+      </form>
+    </div>
   </section>
 
   <section class="second-section">
@@ -42,7 +51,9 @@
     </div>
     <div class="about-cipher-div">
       <h3>Sobre a cifra de César</h3>
-      <p>Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent taciti sociosqu ad litora torquent. Quem num gosta di mé, boa gentis num é. Interagi no mé, cursus quis, vehicula ac nisi. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.</p>
+      <p>Mussum Ipsum, cacilds vidis litro abertis. Viva Forevis aptent taciti sociosqu ad litora torquent. Quem num
+        gosta di mé, boa gentis num é. Interagi no mé, cursus quis, vehicula ac nisi. Praesent malesuada urna nisi, quis
+        volutpat erat hendrerit non. Nam vulputate dapibus.</p>
     </div>
   </section>
 
