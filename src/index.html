@@ -12,28 +12,28 @@
 </head>
 
 <body>
-  <header id="root">
+  <header>
     <h1 class="main-title">Caesar's Crush <i class="far fa-heart"></i></h1>
     <h2 class="second-title">Mande uma mensagem secreta para o seu crush!!</h2>
   </header>
 
   <section class="main-section">
     <div class="form-div">
-      <form>
+      <form id="form">
         <div class="form-div-message">
           <label for="message-input" class="message-title">Mensagem</label>
-          <textarea id="message-input" placeholder="Digite sua mensagem..." name="message-box" required></textarea>
+          <textarea id="message-input" placeholder="Digite sua mensagem..." name="message" required></textarea>
         </div>
         <div class="form-div-offset">
           <label for="offset-input" class="message-title">Posição</label>
-          <input type="number" id="offset-input" placeholder="0" name="offset" />
+          <input type="number" id="offset-input"  name="offset" value="1" min="1"/>
         </div>
         <div class="form-div-message">
           <label for="result-input" class="message-title">Resultado</label>
-          <textarea id="result-input" placeholder="Resultado..." name="result-input"></textarea>
+          <textarea id="result-input" placeholder="Resultado..." name="result"></textarea>
         </div>
-        <button type="submit" id="code-btn" class="btn">Codificar</button>
-        <button type="submit" id="decode-btn" class="btn">Decodificar</button>
+        <button type="button" id="encode-btn" class="btn">Codificar</button>
+        <button type="button" id="decode-btn" class="btn">Decodificar</button>
       </form>
     </div>
   </section>
