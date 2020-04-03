@@ -1,16 +1,5 @@
 # Caesar's crush 
 
-## Índice
-
-* [1. Prefácio](#1-prefácio)
-* [2. O que é o Caesar's crush?](#2-O-que-é-o-Caesar's-crush?)
-* [3.  Quem são os principais usuários?](#3-Quem-são-os-principais-usuários?)
-* [4.  Como o produto resolve os problemas do usuário?](#4-Como-o-produto-resolve-os-problemas-do-usuário?)
-* [5. Como foi feito o projeto?](#6-Como-foi-feito-o-projeto)
-* [6.  Quais foram as tecnologias usadas no projeto?](#7-Quais-foram-as-tecnologias-usadas-no-projeto)
-* [9. Como instalar  e iniciar a aplicação](#9-Como-instalar-e-iniciar-a-aplicação:)
-* [10.Como o deploy da  aplicação é feita](#10-Como-o-deploy-da-aplicação-é-feita:)
-***
 
 ## 1. Prefácio
 
