@@ -1,0 +1,125 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFCF9;
+  color: #333;
+}
+
+.main-title {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  color: #C48370;
+  font-size: 50px;
+  font-weight: lighter;
+  border-bottom: 1px solid #ECC8AE;
+}
+
+.second-title {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-weight: lighter;
+  color: #C48370;
+}
+
+
+.form-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-div-message {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-div-offset {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-title {
+  font-family: 'Cinzel', serif;
+}
+
+.btn {
+  color: #C48370;
+  font-weight: bold;
+  background-color: #ECC8AE;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Cinzel', serif;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+
+}
+
+.btn:hover {
+  background-color: #C48370;
+  color: white;
+
+}
+
+#message-input {
+  text-align: center;
+  border: 1px solid #ECC8AE;
+  border-radius: 3px;
+  height: 100px;
+  width: 250px;
+}
+
+#result-input {
+  text-align: center;
+  border: 1px solid #ECC8AE;
+  border-radius: 3px;
+  height: 100px;
+  width: 250px;
+}
+
+#offset-input {
+  text-align: center;
+  border: 1px solid #ECC8AE;
+  height: 20px;
+  width: 50px;
+  border-radius: 3px;
+}
+
+.div-second-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.instruction-div {
+  text-align: center;
+  margin-top: 30px;
+  border: 1px solid #ECC8AE;
+  width: 300px;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.instruction-div li {
+  padding: 5px;
+}
+
+.about-cipher-div {
+  text-align: center;
+  border: 1px solid #ECC8AE;
+  width: 400px;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.second-section-titles {
+  font-family: 'Cinzel', serif;
+  color: #C48370;
+
+}
+
+.know-more-link:hover {
+  color: #C48370;
+  cursor: pointer;
+}

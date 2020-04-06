@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Cifra de César</title>
+  <!--font awesome icons-->
+  <script src="https://kit.fontawesome.com/11e9e029cd.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@300&family=Romanesco&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1 class="main-title">Caesar's Crush <i class="far fa-heart"></i></h1>
+    <h2 class="second-title">Mande uma mensagem secreta para o seu crush!!</h2>
+  </header>
+
+  <section class="main-section">
+    <div class="form-div">
+      <form id="form">
+        <div class="form-div-message">
+          <label for="message-input" class="message-title">Mensagem</label>
+          <textarea id="message-input" placeholder="Digite sua mensagem..." name="message" required></textarea>
+        </div>
+        <div class="form-div-offset">
+          <label for="offset-input" class="message-title">Posição</label>
+          <input type="number" id="offset-input" name="offset" value="1" min="1" />
+        </div>
+        <div class="form-div-message">
+          <label for="result-input" class="message-title">Resultado</label>
+          <textarea id="result-input" placeholder="Resultado..." name="result"></textarea>
+        </div>
+        <button type="button" id="encode-btn" class="btn">Codificar</button>
+        <button type="button" id="decode-btn" class="btn">Decodificar</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="second-section">
+    <div class="div-second-section">
+      <div class="instruction-div">
+        <h3 class="second-section-titles">Instruções</h3>
+        <p>
+          <ol>
+            <li>Primeiro coloque a frase que gostaria de codificar/decodificar</li>
+            <li>Depois só clicar nos botões</li>
+            <li>E por ultimo, divirta-se!</li>
+          </ol>
+        </p>
+      </div>
+      <div class="about-cipher-div">
+        <h3 class="second-section-titles">Sobre a cifra de César</h3>
+        <p>Em criptografia, a Cifra de César, também conhecida como cifra de troca, código de César ou troca de César, é
+          uma das mais simples e conhecidas técnicas de criptografia. É um tipo de cifra de substituição na qual cada
+          letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes. Por
+          exemplo, com uma troca de três posições, A seria substituído por D, B se tornaria E, e assim por diante. O
+          nome do método é em homenagem a Júlio César, que o usou para se comunicar com os seus generais.</p>
+        <p><a href="https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar" target="blank" class="know-more-link">Clique aqui
+            para saber mais</a></p>
+      </div>
+    </div>
+  </section>
+
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
