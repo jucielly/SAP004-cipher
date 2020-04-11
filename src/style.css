@@ -86,10 +86,11 @@ html {
   transition: 1s ease;
 }
 
-.ofsset-input:focus {
+.offset-input:focus {
   outline: 0;
   border: 1px solid #C48370;
 }
+
 .div-second-section {
   display: flex;
   flex-direction: row;

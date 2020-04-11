@@ -1,6 +1,6 @@
 import cipher from './cipher.js';
 
-console.log(cipher);
+//console.log(cipher);
 
 
 let form = document.getElementById("form")
