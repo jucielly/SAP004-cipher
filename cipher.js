@@ -28,7 +28,6 @@ const cipher = {
 
   decode: (offset, string) => {
     if (typeof offset != "number" || typeof string != "string") {
-      console.log(typeof offset)
       throw new TypeError()
     }
     const parsedOffset = parseInt(offset) % 26
