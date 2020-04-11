@@ -10,7 +10,7 @@ let encodeBtn = document.getElementById("encode-btn")
 
 function encryptMessage() {
   const messageValue = form.elements["message"].value
-  const offsetValue = form.elements["offset"].value
+  const offsetValue = +form.elements["offset"].value
   const encryptedValue = cipher.encode(offsetValue, messageValue)
   form.elements["result"].value = encryptedValue
 }
@@ -25,7 +25,7 @@ encodeBtn.onclick = encryptMessage
 
 function decryptMessage() {
     const messageValue = form.elements["message"].value
-    const offsetValue = form.elements["offset"].value
+    const offsetValue = +form.elements["offset"].value
     const decryptedValue = cipher.decode(offsetValue,messageValue)
     form.elements["result"].value = decryptedValue
 }
