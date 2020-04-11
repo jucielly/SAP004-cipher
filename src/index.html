@@ -22,15 +22,16 @@
       <form id="form">
         <div class="form-div-message">
           <label for="message-input" class="message-title">Mensagem</label>
-          <textarea id="message-input" placeholder="Digite sua mensagem..." name="message" required></textarea>
+          <textarea id="message-input" placeholder="Digite sua mensagem..." name="message" class="text-area"
+            required></textarea>
         </div>
         <div class="form-div-offset">
           <label for="offset-input" class="message-title">Posição</label>
-          <input type="number" id="offset-input" name="offset" value="1" min="1" />
+          <input type="number" id="offset-input" name="offset" value="1" min="1" class="offset-input"/>
         </div>
         <div class="form-div-message">
           <label for="result-input" class="message-title">Resultado</label>
-          <textarea id="result-input" placeholder="Resultado..." name="result"></textarea>
+          <textarea id="result-input" placeholder="Resultado..." name="result" class="text-area" ></textarea>
         </div>
         <button type="button" id="encode-btn" class="btn">Codificar</button>
         <button type="button" id="decode-btn" class="btn">Decodificar</button>

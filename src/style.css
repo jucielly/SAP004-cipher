@@ -61,30 +61,35 @@ html {
 
 }
 
-#message-input {
+.text-area {
   text-align: center;
   border: 1px solid #ECC8AE;
   border-radius: 3px;
   height: 100px;
   width: 250px;
+  resize: none;
+  transition: 1s ease;
 }
 
-#result-input {
-  text-align: center;
-  border: 1px solid #ECC8AE;
-  border-radius: 3px;
-  height: 100px;
-  width: 250px;
+.text-area:focus {
+  outline: 0;
+  border: 1px solid #C48370;
 }
 
-#offset-input {
+
+.offset-input {
   text-align: center;
   border: 1px solid #ECC8AE;
   height: 20px;
   width: 50px;
   border-radius: 3px;
+  transition: 1s ease;
 }
 
+.ofsset-input:focus {
+  outline: 0;
+  border: 1px solid #C48370;
+}
 .div-second-section {
   display: flex;
   flex-direction: row;
