@@ -26,7 +26,31 @@ const cipher = {
     return encoded
   },
 
- 
+  decode: (offset, string) => {
+    if (typeof offset != "number" || typeof string != "string") {
+      console.log(typeof offset)
+      throw new TypeError()
+    }
+    const parsedOffset = parseInt(offset) % 26
+    let decoded = ""
+    for (let i = 0; i < string.length; i++) {
+      const letterInAsciiTable = string.charCodeAt(i);
+      if (letterInAsciiTable >= 65 && letterInAsciiTable <= 90) {
+        decoded += String.fromCharCode(((letterInAsciiTable + 65 - parsedOffset) % 26) + 65); //para upperCase
+      } else if (letterInAsciiTable >= 97 && letterInAsciiTable <= 122) {
+        const letterInAlphabet = letterInAsciiTable - 97
+        let letterInAlphabetMinusOffset = letterInAlphabet - parsedOffset
+        if (letterInAlphabetMinusOffset < 0) letterInAlphabetMinusOffset += 26
+        const offsetInAlphabet = letterInAlphabetMinusOffset % 26
+        const offsetInAsciiTable = offsetInAlphabet + 97
+        decoded += String.fromCharCode(offsetInAsciiTable); //para LowerCase
+      } else {
+        decoded += string.charAt(i);
+      }
+
+    }
+    return decoded
+  }
 
 
 }
